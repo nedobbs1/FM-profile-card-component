@@ -1,0 +1,139 @@
+body {
+    background-image: url(/images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px hsl(0, 0%, 59%);
+}
+
+img {
+    border-radius: 50%;
+    border: solid 5px white;
+}
+
+.img-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.card-top {
+    background-image: url(/images/bg-pattern-card.svg);
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    height: 125px;
+}
+
+.card-middle {
+    margin: 10% 0 0;
+    padding-top: 10%;
+}
+
+.card-bottom {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 7%;
+}
+
+.city {
+    font-size: 15px;
+    padding: 5%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.neutral {
+    color: hsl(0, 0%, 59%);
+}
+
+.stat-box {
+    padding-top: 3%;
+    flex: 1 1 auto;
+}
+
+.stat-type {
+    font-size: 10px;
+    letter-spacing: 0.15rem;
+    padding-top: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .card {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 35%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 25%;
+    }
+}
